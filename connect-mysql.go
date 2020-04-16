@@ -4,13 +4,13 @@ import(
 	"fmt"
 	"log"
 	"net/http"
-	"github.com/go-sql-driver/mysql"
+	_"github.com/go-sql-driver/mysql"
 )
 const(
 	CONN_HOST = "localhost"
 	CONN_PORT = "8080"
 	DRIVER_NAME = "mysql"
-	DATA_SOURCE_NAME = "root:password@/mydb"
+	DATA_SOURCE_NAME = "nastya:npollly@/library"
 )
 
 var db *sql.DB
